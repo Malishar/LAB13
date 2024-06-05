@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="LibraryClass">
+      <HintPath>..\..\LibraryClass\LibraryClass\bin\Debug\net7.0\LibraryClass.dll</HintPath>
+    </Reference>
+    <Reference Include="LibraryLab12">
+      <HintPath>..\..\LibraryLab12\LibraryLab12\bin\Release\net7.0\LibraryLab12.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
